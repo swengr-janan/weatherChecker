@@ -88,6 +88,10 @@ showWeatherData = (weatherData) => {
 //Show error when no city is found
 showErrorData = () => {
   document.getElementById('city-name').innerHTML = "Error 403: City not found!";
+  document.getElementById('weather-type').innerHTML = "";
+  document.getElementById('temp').innerText = "";
+  document.getElementById('min-temp').innerText = "";
+  document.getElementById('max-temp').innerText = "";
 }
 
 //Search using enter key
