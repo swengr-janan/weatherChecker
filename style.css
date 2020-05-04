@@ -1,0 +1,68 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url('img/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.search-box{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ccfffd;
+  height: 100px;
+  border-radius: 40px;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+.search-btn{
+  color: #007874;
+  float: right;
+  font-size: 50px;
+  opacity: 1.0;
+
+  width: auto;
+  height: auto;
+}
+
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #004987;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 0px;
+  width: 600px;
+  font-size: 50px;
+}
+
+#weather-output {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+  
+.banner {
+    color: #FFD23F;
+    font-family: sans-serif;
+}
+
+#city-name{
+  font-size: 100px;
+}
+
+#weather-type{
+  font-size: 50px;
+}
+
+.title{
+  padding-top: 50px;
+  size: 100px;
+}
