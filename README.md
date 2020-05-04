@@ -10,4 +10,8 @@ Temperature,
 Min Temperatutre,
 Max Temperatutre
 
+# Demo
+https://swengr-janan.github.io/weatherChecker/
+
+# API
 API used is from https://openweathermap.org/
